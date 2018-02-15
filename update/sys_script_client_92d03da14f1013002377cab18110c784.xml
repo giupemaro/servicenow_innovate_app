@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <messages/>
+        <name>myScript2</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   //alert(g_form.getValue('number'));
+	g_form.addInfoMessage('info message.');
+	g_form.addErrorMessage('error message.');
+	//g_form.addOption('idea_type', 'another_choice', 'make a choice:');
+	alert(g_user.firstName +'\n' +g_user.lastName +'\n' +g_user.userID +'\n' +g_user.userName);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-15 08:46:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>92d03da14f1013002377cab18110c784</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>myScript2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_195734_innovate">1320991d4f5013002377cab18110c75a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">1320991d4f5013002377cab18110c75a</sys_scope>
+        <sys_update_name>sys_script_client_92d03da14f1013002377cab18110c784</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-15 10:06:01</sys_updated_on>
+        <table>x_195734_innovate_innovate</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

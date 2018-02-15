@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>blablabla, bla.</description>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <messages>bla</messages>
+        <name>myScript3</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   confirm('Are you sure?');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-15 08:51:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d3239e14f1013002377cab18110c771</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>myScript3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_195734_innovate">1320991d4f5013002377cab18110c75a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">1320991d4f5013002377cab18110c75a</sys_scope>
+        <sys_update_name>sys_script_client_2d3239e14f1013002377cab18110c771</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-15 08:57:38</sys_updated_on>
+        <table>x_195734_innovate_innovate</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
